@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{THE_REQUEST} ^.*\/index\.html? 
+RewriteRule ^(.*)index\.html?$ http://localhost:8080/projects/webs/usr-creventures/creinteractive.com/crei-temp/$1 [R=301,L]

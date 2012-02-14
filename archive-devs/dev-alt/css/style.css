@@ -1,0 +1,254 @@
+/*
+	Example CSS style layout
+*/
+
+/* =Color Index
+-------------------------------------------------------------- 
+	Hex				::	Name
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	### Backgrounds
+	27394c		:: Deep Blue
+	5c86b2		:: Deep Blue Contrast blue
+	bfa767		:: Tan
+	
+	### Fonts
+	27394c		:: Deep Blue (headers and such, on white)
+	ccccff		:: Deep Blue Contrast Light Purple (headers and such, on deep blue)
+	5c86b2		:: Deep Blue Contrast blue (headers and such, on deep blue)
+	9b702f		:: Deep Blue Contrast brown (headers and such, on deep blue)
+	ffffff			:: White
+	9e948a		:: Light Grey (minimize visibility)
+	
+	### Miscellaneous
+	c2c2a3		:: Light Green
+	cdae7e		:: Light Tan
+	ccccff		:: Light Purple
+	
+*/
+
+/* Defaults
+-------------------------------------------------------------- */
+.hide {
+	display: none;
+	}
+
+
+
+/* Layout
+-------------------------------------------------------------- */
+
+/* Header */
+header#brand {
+	/*clear: both;
+	position: relative;
+	overflow: auto;
+	width: 100%;*/
+	}
+	
+h1#logo {
+	}
+
+header div#big-icon a {
+	display: block;
+	margin: 10px auto;
+	max-width: 256px;
+	/*width: 100%;*/
+	}
+
+header div#big-icon a img {
+	/*display: block;
+	margin: 0px auto;
+	display: block;
+	margin: 10px auto;
+	max-width: 256px;
+	width: 100%;*/
+	}
+
+header h1#logo {
+	background: url('images/cre_interactive-logo.png') no-repeat 0px 0px;
+	height: 2.5em;
+	margin: 0px auto;
+	/*max-width: 700px;
+	overflow: hidden;
+	width: 100%;*/
+	}
+
+header hgroup a {
+	/*clear: both;
+	display: block;
+	height: 2.5em;
+	margin: 0px auto;
+	max-width: 700px;
+	overflow: hidden;
+	width: 100%;*/
+	display: block;
+	margin: 0px auto;
+	max-width: 700px;
+	/*height: 80px;
+	overflow: hidden;
+	width: 100%;*/
+	}
+
+header h1#logo span {
+	margin-left: -9999px;
+	/*overflow: hidden;*/
+	}
+
+header h2#slogan {/**/
+	border-top: 4px double lightgrey;
+	border-bottom: 4px double lightgrey;
+	margin: 1em auto;
+	max-width: 1350px;
+	min-width: 1160px;
+	/*overflow: hidden;
+	width: 100%;*/
+	}
+
+header h2#slogan p {
+	display: block;
+	font-size: 0.85em;
+	margin: 0px auto;
+	max-width: 970px;
+	overflow: hidden;
+	padding: 25px 0px;
+	text-align: center;
+	/*width: 100%;*/
+	}
+
+nav#menu {
+	display: block;
+	float: left;
+	width: 100%;
+	}
+
+nav#menu ul#items {
+	margin: 10px auto;
+	width: 1370px;
+	}
+
+nav#menu ul#items li.item {
+	display: block;
+	float: left;
+	margin: 5px 10px 5px;
+	padding: 5px;
+	width: 22%;
+	}
+
+nav#menu ul#items li.item h3 {
+	font-size: 1.5em;
+	margin: 5px 0px;
+	}
+
+nav#menu ul#items li.item h3 span {
+	font-size: 1.3em;
+	color: darkgrey;
+	font-family: Georgia, "Lucida Grande", Tahoma;
+	}
+
+nav#menu ul#items h3:hover {
+	color: #A68120;
+	cursor: pointer;
+	}
+
+nav#menu ul#items li.item h3:hover span {
+	color: #BFA767;
+	cursor: pointer;
+	}
+
+nav#menu ul#items li.item h3.linked {
+	}
+
+/* Main */
+#wrapper {
+	
+	}
+
+#slider {
+	overflow: auto;
+	width: 100%;
+	}
+	
+#description {
+	float: left;
+	width: 45%
+	}
+	
+#feature {
+	float: left;
+	width: 45%
+	}
+	
+#highlights {
+	overflow: auto;
+	width: 100%;
+	}
+
+.highlight {
+	background-color: #cfe2f3;
+	float: left;
+	height: 300px;
+	margin: 20px;
+	width: 300px;
+	}
+
+#highlight-1 {
+
+	}
+
+#highlight-2 {
+
+	}
+
+#highlight-3 {
+
+	}
+
+.content {
+	clear: both;
+	text-align: center;
+	}
+#content {
+	overflow: auto;
+	width: 100%;
+	}
+	
+#content-left {
+	float: left;
+	width: 45%;
+	}
+#content-right {
+	float: left;
+	width: 45%;
+	}
+
+	/* Footer */
+footer {
+	overflow: auto;
+	width: 100%;
+	font-size: 0.75em
+	}
+
+#footer-left {
+	float: left;
+	width: 15%;
+	margin-left: 25px;
+	}
+
+#footer-right {
+	float: right;
+	width: 10%;
+	}
+	
+#footer-top p {
+	color: grey;
+	}
+	
+#footer-bottom {
+	clear: both;
+	text-align: center;
+	}
+	
+#footer-bottom p {
+	color: lightgrey;
+	font-style: italic;
+	}

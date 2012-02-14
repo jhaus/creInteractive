@@ -1,0 +1,149 @@
+/*
+ * default.css
+ * 
+ * Available default templates:
+ * front page, single page, single post, singular, archives, blog, attachments, user profiles
+ * 
+ * Available template layouts:
+ * full width, column width (1,2 or 3 -- left or right), 
+ *  
+ * Available template features:
+ * nav (3 locations - header top and bottom, footer), feature box, forms
+ * 
+ * / 
+ 
+
+ /*********************************************
+
+Might this be necessary?...
+http://html5doctor.com/html-5-reset-stylesheet/
+
+*/
+
+
+/* Defaults
+-------------------------------------------------------------- */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+html { overflow-y: scroll; }
+
+/* =Fonts & Colors
+-------------------------------------------------------- */
+* {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	color: #0C2642;
+	}
+
+/*Body (and Content Area)*/
+::-moz-selection{ background: #BFA767; color: #fff; }
+::selection { background: #BFA767; color: #fff; }
+
+
+/*Content Area*/
+
+
+/*Nav Menu*/
+
+
+/*Header*/
+
+
+/*Headlines*/
+h1, h2, h3, h4, h1 *, h2 *, h3 *, h4 * {
+	font-family: Cambria, Cantarell, 'Futura Bold', Helvetica, Arial, sans-serif; 
+	/*font-family: Georgia, 'Times New Roman', Times, serif;*/ 
+	}
+	
+h1 {
+	font-size: 2em;
+	}
+	
+h2 {
+	font-size: 1.5em;
+	}
+	
+h3 {
+	font-size: 28px;
+	}
+	
+/*Bylines and Post Meta Data*/
+
+
+/*Links*/
+
+
+/*Code*/
+
+
+/*Sidebars*/
+
+
+/*Comments*/
+
+
+/*Footer*/
+
+
+
+/*Form Fields*/
+
+
+
+/* =Layout
+-------------------------------------------------------- */
+/*Body*/
+body {
+	margin: 0px;
+	}
+
+/*Page Padding*/
+
+
+/*Column Count + Width*/
+
+
+/*Column Order*/
+
+
+/*Feature Box*/
+
+
+/*Images*/
+.thumbnail {
+	}
+.post-image {
+	
+	}
+
+/* =Excerpts + Loop
+-------------------------------------------------------- */
+
+/*Headlines*/
+
+
+/*Bylines*/
+
+
+/*Comment Count*/
+
+
+/*a - Article Links*/
+
+
+/*Font Size*/
+
+
+
+/* =Common WordPress Elements
+-------------------------------------------------------- */
+
+/*Search Form*/
+
+
+/*Drop Down Menus*/
+
+
+/*Gravatar - User Profiles*/
+
+

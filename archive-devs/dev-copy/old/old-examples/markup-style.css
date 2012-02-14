@@ -1,0 +1,135 @@
+/*
+	Example CSS style layout
+*/
+
+/* =Color Index
+-------------------------------------------------------------- 
+	Hex				::	Name
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	### Backgrounds
+	27394c		:: Deep Blue
+	5c86b2		:: Deep Blue Contrast blue
+	bfa767		:: Tan
+	
+	### Fonts
+	27394c		:: Deep Blue (headers and such, on white)
+	ccccff			:: Deep Blue Contrast Light Purple (headers and such, on deep blue)
+	5c86b2		:: Deep Blue Contrast blue (headers and such, on deep blue)
+	9b702f		:: Deep Blue Contrast brown (headers and such, on deep blue)
+	ffffff				:: White
+	9e948a		:: Light Grey (minimize visibility)
+	
+	### Miscellaneous
+	c2c2a3		:: Light Green
+	cdae7e		:: Light Tan
+	ccccff			:: Light Purple
+	
+*/
+
+/* Defaults
+-------------------------------------------------------------- */
+
+
+
+
+/* Layout
+-------------------------------------------------------------- */
+
+/* Header */
+header#brand {
+	clear: both;
+	position: relative;
+	overflow: auto;
+	width: 100%;
+	}
+
+h1#logo {
+	float: left;
+	}
+
+nav#menu {
+	float: right;
+	}
+
+ul#items {
+
+	}
+
+#item {
+
+	}
+
+/* Main */
+#wrapper {
+	
+	}
+
+#slider {
+	overflow: auto;
+	width: 100%;
+	}
+	
+#description {
+	float: left;
+	width: 45%
+	}
+	
+#feature {
+	float: left;
+	width: 45%
+	}
+	
+#highlights {
+	overflow: auto;
+	width: 100%;
+	}
+
+.highlight {
+	background-color: #cfe2f3;
+	float: left;
+	height: 300px;
+	margin: 20px;
+	width: 300px;
+	}
+
+#highlight-1 {
+
+	}
+
+#highlight-2 {
+
+	}
+
+#highlight-3 {
+
+	}
+
+#content {
+	overflow: auto;
+	width: 100%;
+	}
+	
+#content-left {
+	float: left;
+	width: 45%
+	}
+#content-right {
+	float: left;
+	width: 45%
+	}
+
+	/* Footer */
+footer {
+	overflow: auto;
+	width: 100%;
+	}
+
+#footer-left {
+	float: left;
+	width: 30%
+	}
+
+#footer-right {
+	float: right;
+	width: 30%
+	}
