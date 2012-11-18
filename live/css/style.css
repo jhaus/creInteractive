@@ -86,6 +86,7 @@ header div#big-icon a img {
 	margin: 10px auto;
 	max-width: 256px;
 	width: 100%;*/
+	border: none;
 	}
 
 header h1#logo {
