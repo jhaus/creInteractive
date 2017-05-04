@@ -1,4 +1,0 @@
-# Stop apache showing formatted directory list of files and folders
-# http://httpd.apache.org/docs/2.0/mod/core.html#options
-
-Options -Indexes
