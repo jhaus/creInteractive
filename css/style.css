@@ -220,6 +220,10 @@ section#main-content, footer {
 	clear: both;
 	}
 
+section#partner {
+	text-align: center;
+}
+
 body.home .content {
 	display: none;
 	}
